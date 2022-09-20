@@ -12,6 +12,23 @@ body {
 /* ----- Header ----- */
 header {
     background-color: #1F2937;
-
+    padding: 1em 12em;
 }
 
+/* ----- Nav ----- */
+
+/* ----- Welcome ----- */
+
+/* ----- Cards ----- */
+
+/* ----- Quote ----- */
+.quote {
+    background-color: #E5E7EB;
+}
+
+/* ----- Sign up ----- */
+
+/* ----- Footer ----- */
+footer {
+    background-color: #1F2937;
+}
