@@ -16,6 +16,29 @@ header {
 }
 
 /* ----- Nav ----- */
+#logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+}
+
+a:link {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
 
 /* ----- Welcome ----- */
 
