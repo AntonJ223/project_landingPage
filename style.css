@@ -54,4 +54,9 @@ a:link {
 /* ----- Footer ----- */
 footer {
     background-color: #1F2937;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
 }
