@@ -13,6 +13,7 @@ body {
 header {
     background-color: #1F2937;
     padding: 1em 12em;
+    color: white;
 }
 
 /* ----- Nav ----- */
@@ -34,6 +35,7 @@ header {
     gap: 1em;
 }
 
+.secondaryText,
 a:link {
     text-decoration: none;
     color: #E5E7EB;
@@ -42,21 +44,49 @@ a:link {
 
 /* ----- Welcome ----- */
 .welcome {
+    padding: 7em 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2em;
 }
 
 .welcome .left {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    
 }
 
 .welcome .right {
-    display: flex;
+    flex-shrink: 0;
+    width: 50%;
 }
 
+.titleText {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
 
+button {
+    width: 110px;
+    padding: 7px 1em;
+    background-color: #3882F6;
+    border-radius: 9px;
+}
+
+.welcome button {
+    border:  none;
+}
+
+.image {
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
 /* ----- Cards ----- */
 
 /* ----- Quote ----- */
