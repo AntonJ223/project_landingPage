@@ -41,6 +41,21 @@ a:link {
 }
 
 /* ----- Welcome ----- */
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.welcome .left {
+    display: flex;
+    flex-direction: column;
+}
+
+.welcome .right {
+    display: flex;
+}
+
 
 /* ----- Cards ----- */
 
